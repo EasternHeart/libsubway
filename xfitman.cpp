@@ -4,9 +4,10 @@
  * Heartlenv - A Qt-based, lightweight Desktop Environment.
  * http://anthonos.org
  *
- * Copyright: 2013 Heartlenv team
+ * Copyright: 2013 Heartlenv Team of Anthon Open Source Community
  * Authors:
  *   Eastern Heart <zxd123314@hotmail.com>
+ *   Jeff Bai <jeffbaichina@gmail.com>
  *
  * This program or library is free software; you can redistribute it
  * and/or modify it under the terms of the GNU Lesser General Public
@@ -950,7 +951,7 @@ const QRect XfitMan::availableGeometry(const QPoint &point) const
 
  http://standards.freedesktop.org/wm-spec/wm-spec-latest.html#id2550836
  ************************************************/
-bool XfitMan::isWindowManagerActive() const
+/*bool XfitMan::isWindowManagerActive() const
 {
     //Window *wins;
 
@@ -974,3 +975,4 @@ bool XfitMan::isWindowManagerActive() const
     }
     return false;
 }
+*/
