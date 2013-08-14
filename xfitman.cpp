@@ -951,7 +951,7 @@ const QRect XfitMan::availableGeometry(const QPoint &point) const
 
  http://standards.freedesktop.org/wm-spec/wm-spec-latest.html#id2550836
  ************************************************/
-/*bool XfitMan::isWindowManagerActive() const
+bool XfitMan::isWindowManagerActive() const
 {
     //Window *wins;
 
@@ -975,4 +975,4 @@ const QRect XfitMan::availableGeometry(const QPoint &point) const
     }
     return false;
 }
-*/
+
